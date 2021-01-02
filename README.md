@@ -1,4 +1,4 @@
-cppzst [![version](https://img.shields.io/npm/v/cppzst.svg)](https://www.npmjs.com/package/cppzst) [![ZSTD/v1.3.4](https://img.shields.io/badge/ZSTD-v1.3.4-green.svg)](https://github.com/facebook/zstd/releases/tag/v1.3.4)
+cppzst [![version](https://img.shields.io/npm/v/cppzst.svg)](https://www.npmjs.com/package/cppzst) [![ZSTD/v1.3.4](https://img.shields.io/badge/ZSTD-v1.3.4-green.svg)](https://github.com/facebook/zstd/releases/tag/v1.4.5)
 =====
 
 [![Build Status][1]][2]
@@ -21,7 +21,7 @@ $ npm install cppzst --save
 #### compress(buffer[, zstdCompressParams], callback)
 
 ```javascript
-import {compress} from 'cppzst';
+const {compress, decompress} = require('cppzst');
 
 await compress(input);
 
@@ -29,7 +29,7 @@ await compress(input);
 #### decompress(buffer[, zstdDecompressParams], callback)
 
 ```javascript
-import {decompress} from 'cppzst';
+const {compress, decompress} = require('cppzst');
 
 await decompress(input)
 ```
