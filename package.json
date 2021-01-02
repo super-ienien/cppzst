@@ -1,8 +1,8 @@
 {
-  "name": "cppzst",
+  "name": "@fstnetwork/cppzst",
   "version": "2.0.7",
-  "description": "Zstd wrapper for Nodejs 14 and above",
-  "main": "index.mjs",
+  "description": "Zstd wrapper for Nodejs 14 and above (CommonJS)",
+  "main": "./index.js",
   "scripts": {
     "test": "mocha -t 5000",
     "build:dev": "node-gyp -j 16 build --debug",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmw-lib/cppzst.git"
+    "url": "git+https://github.com/fstnetwork/cppzst.git"
   },
   "keywords": [
     "zstd",
@@ -26,6 +26,11 @@
       "name": "gcxfd",
       "email": "i@rmw.link",
       "url": "https://github.com/gcxfd"
+    },
+    {
+      "name": "noelb24",
+      "email": "noel@fstk.io",
+      "url": "https://github.com/kumanoko24"
     }
   ],
   "license": "AGPL-3.0-or-later",
