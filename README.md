@@ -1,4 +1,4 @@
-cppzst [![version](https://img.shields.io/npm/v/cppzst.svg)](https://www.npmjs.com/package/cppzst) [![ZSTD/v1.3.4](https://img.shields.io/badge/ZSTD-v1.3.4-green.svg)](https://github.com/facebook/zstd/releases/tag/v1.4.5)
+cppzst [![version](https://img.shields.io/npm/v/cppzst.svg)](https://www.npmjs.com/package/cppzst) [![ZSTD/v1.4.8](https://img.shields.io/badge/ZSTD-v1.4.8-green.svg)](https://github.com/facebook/zstd/releases/tag/v1.4.8)
 =====
 
 [![Build Status][1]][2]
@@ -6,12 +6,12 @@ cppzst [![version](https://img.shields.io/npm/v/cppzst.svg)](https://www.npmjs.c
 [1]: https://travis-ci.org/zwb-ict/cppzst.svg?branch=master
 [2]: https://travis-ci.org/zwb-ict/cppzst
 
-Zstd wrapper for Nodejs
+Zstd wrapper for Nodejs 14 and above (CommonJS)
 
 ## Installation
 
 ```bash
-$ npm install cppzst --save
+$ yarn add @fstnetwork/cppzst
 ```
 
 ## Usage

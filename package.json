@@ -1,14 +1,14 @@
 {
   "name": "@fstnetwork/cppzst",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Zstd wrapper for Nodejs 14 and above (CommonJS)",
   "main": "./index.js",
   "scripts": {
     "test": "mocha -t 5000",
-    "build:dev": "node-gyp -j 16 build --debug",
-    "build": "node-gyp -j 16 build",
-    "rebuild:dev": "node-gyp -j 16 rebuild --debug",
-    "rebuild": "node-gyp -j 16 rebuild",
+    "build:dev": "node-gyp -j 4 build --debug",
+    "build": "node-gyp -j 4 build",
+    "rebuild:dev": "node-gyp -j 4 rebuild --debug",
+    "rebuild": "node-gyp -j 4 rebuild",
     "clean": "node-gyp clean"
   },
   "repository": {
