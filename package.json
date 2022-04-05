@@ -1,5 +1,5 @@
 {
-  "name": "@fstnetwork/cppzst",
+  "name": "@cliclic/cppzst",
   "version": "2.0.8",
   "description": "Zstd wrapper for Nodejs 14 and above (CommonJS)",
   "main": "./index.js",
